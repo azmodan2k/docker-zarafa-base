@@ -8,6 +8,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq -y && apt-get install -qq -y \
     wget \
     apt-utils \
+	debconf \
     mysql-server \
     apache2
 
